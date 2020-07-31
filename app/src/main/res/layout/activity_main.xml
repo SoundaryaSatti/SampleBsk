@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2FFFDD0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:src="@drawable/logo3"
+            android:padding="20dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="#00ABF0"
+                android:text="YEAR PLANNER"
+                android:gravity="start|center"
+                android:fontFamily="@font/amiri_regular"
+                android:paddingLeft="60dp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="#00ABF0"
+                android:text="RHAPSODY"
+                android:gravity="start|center"
+                android:paddingLeft="60dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/amiri_regular" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="#00ABF0"
+                android:text="ALUMNI"
+                android:gravity="start|center"
+                android:paddingLeft="60dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/amiri_regular" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="#00ABF0"
+                android:text="YOUR SUPPORT"
+                android:gravity="start|center"
+                android:paddingLeft="60dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/amiri_regular" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:background="#E4F5EB3D"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="50sp"
+            android:text="GALLERY"
+            android:gravity="center"
+            android:fontFamily="@font/amiri_regular"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#00ABF0"
+                android:text="ANNOUNCEMENTS"
+                android:gravity="start|center"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/amiri_regular" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="#00ABF0"
+                android:text="EVENTS"
+                android:gravity="start|center"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/amiri_regular" />
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00ABF0"
+                android:text="ST.DOMNIC SAVIO\N KINDERGARTEN"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/amiri_regular" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="#E4F5EB3D"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E-learning"
+            android:textSize="34dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/amiri_regular"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+</LinearLayout>

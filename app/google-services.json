@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "404482035256",
+    "firebase_url": "https://samplebsk-831b6.firebaseio.com",
+    "project_id": "samplebsk-831b6",
+    "storage_bucket": "samplebsk-831b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404482035256:android:42ddfe0a0b5c68fd4160cd",
+        "android_client_info": {
+          "package_name": "com.integro.samplebsk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404482035256-7rl3vv0l9977kcon0kqj73k8cn4rdef3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWAlK1kGnovVQ8Mi6Cd9qpAVhOiNM_FOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404482035256-7rl3vv0l9977kcon0kqj73k8cn4rdef3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
